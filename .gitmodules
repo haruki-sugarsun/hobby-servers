@@ -1,3 +1,7 @@
+[submodule "base-server"]
+	path = base-server
+	url = git@github.com:haruki-sugarsun/base-server.git
+
 [submodule "markdown_editor"]
 	path = markdown_editor
 	url = git@github.com:haruki-sugarsun/markdown_editor.git

@@ -1,2 +1,4 @@
 rootProject.name = 'hobby-servers'
+include 'base-server'
 include 'markdown_editor'
+include 'bluewhale'
