@@ -1,0 +1,9 @@
+# Java
+build/
+
+# Gradle
+.gradle
+
+# Eclipse
+.project
+.settings
