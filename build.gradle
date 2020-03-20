@@ -11,3 +11,4 @@ project(':bluewhale') {
 // Explicit Task dependencies (test)
 // https://docs.gradle.org/current/userguide/multi_project_builds.html
 test.dependsOn(":base-server:test")
+test.dependsOn(":markdown_editor:test")

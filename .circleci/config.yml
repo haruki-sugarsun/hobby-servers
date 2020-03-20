@@ -24,6 +24,10 @@ jobs:
     steps:
       - checkout
 
+      # Process the submodules.
+      - run: git submodule init
+      - run: git submodule update
+
       # Download and cache dependencies
       - restore_cache:
           keys:
