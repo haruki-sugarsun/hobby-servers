@@ -43,7 +43,7 @@ dependencies {
 }
 
 application {
-    mainClassName = 'example.armeria.server.annotated.Main'
+    mainClassName = 'net.sickhack.markdowneditor.server.Main'
 }
 
 tasks.withType(JavaCompile) {
