@@ -34,6 +34,9 @@ dependencies {
     implementation 'com.linecorp.armeria:armeria'
     runtimeOnly 'org.slf4j:slf4j-simple:1.7.30'
 
+    // commonmark
+    implementation 'com.atlassian.commonmark:commonmark:0.14.0'
+
     testImplementation 'net.javacrumbs.json-unit:json-unit-fluent:2.14.0'
     testImplementation 'org.assertj:assertj-core:3.15.0'
     testImplementation 'org.junit.jupiter:junit-jupiter-api'

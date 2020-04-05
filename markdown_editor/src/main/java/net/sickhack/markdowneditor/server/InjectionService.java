@@ -1,4 +1,4 @@
-package example.armeria.server.annotated;
+package net.sickhack.markdowneditor.server;
 
 import java.util.Arrays;
 import java.util.List;

@@ -1,4 +1,4 @@
-package example.armeria.server.annotated;
+package net.sickhack.markdowneditor.server;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

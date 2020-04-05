@@ -1,4 +1,4 @@
-package example.armeria.server.annotated;
+package net.sickhack.markdowneditor.server;
 
 import com.linecorp.armeria.common.logging.LogLevel;
 import com.linecorp.armeria.server.annotation.Get;

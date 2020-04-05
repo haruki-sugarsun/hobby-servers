@@ -1,4 +1,4 @@
-package example.armeria.server.annotated;
+package net.sickhack.markdowneditor.server;
 
 import com.linecorp.armeria.common.HttpRequest;
 import com.linecorp.armeria.common.HttpResponse;
@@ -12,7 +12,7 @@ import com.linecorp.armeria.server.annotation.Get;
 import com.linecorp.armeria.server.annotation.Param;
 import com.linecorp.armeria.server.annotation.decorator.LoggingDecorator;
 
-import example.armeria.server.annotated.ExceptionHandlerService.GlobalExceptionHandler;
+import net.sickhack.markdowneditor.server.ExceptionHandlerService.GlobalExceptionHandler;
 
 /**
  * Examples how to use {@link ExceptionHandler}.

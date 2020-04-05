@@ -1,7 +1,7 @@
-package example.armeria.server.annotated;
+package net.sickhack.markdowneditor.server;
 
-import static example.armeria.server.annotated.Main.newServer;
 import static net.javacrumbs.jsonunit.fluent.JsonFluentAssert.assertThatJson;
+import static net.sickhack.markdowneditor.server.Main.newServer;
 import static org.assertj.core.api.Assertions.assertThat;
 
 import java.util.Arrays;

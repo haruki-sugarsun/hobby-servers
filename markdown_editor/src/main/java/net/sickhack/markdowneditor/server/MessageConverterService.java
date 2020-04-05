@@ -1,4 +1,4 @@
-package example.armeria.server.annotated;
+package net.sickhack.markdowneditor.server;
 
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.CompletionStage;
