@@ -1,0 +1,3 @@
+[submodule "markdown_editor"]
+	path = markdown_editor
+	url = git@github.com:haruki-sugarsun/markdown_editor.git
