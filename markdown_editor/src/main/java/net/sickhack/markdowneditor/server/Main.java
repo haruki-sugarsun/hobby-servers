@@ -37,6 +37,8 @@ public class Main {
                  .annotatedService("/injection", new InjectionService())
                  .annotatedService("/messageConverter", new MessageConverterService())
                  .annotatedService("/exception", new ExceptionHandlerService())
+                 .annotatedService("/render", new MarkdownRenderService())
+                .annotatedService("/editor", new EditorPageService())
                  .serviceUnder("/docs", new DocService())
                  .build();
     }
