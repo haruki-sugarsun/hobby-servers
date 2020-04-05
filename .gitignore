@@ -10,3 +10,6 @@ build/
 
 # Idea
 .idea
+*.iml
+*.ipr
+*.iws
